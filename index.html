@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: san Francisco bold;
+            src: url(./assets/fonts/San\ Francisco\ bold\ .ttf);
+        }
+
+        @font-face {
+            font-family: san Francisco medium;
+            src: url(./assets/fonts/San\ Francisco\ mediom.ttf);
+        }
+    </style>
+</head>
+
+<body style="font-family: san Francisco medium" class="container mx-auto">
+    <!-- Header -->
+    <header class="flex flex-col items-center w-full min-w-max bg-indigo-50 h-[18rem]">
+        <h1 class="m-4 text-5xl">فیلتر محصولات</h1>
+        <input id="search" class="w-[24rem] h-12 border m-1 border-gray-400 text-2xl rounded-lg p-3" type="text"
+            placeholder="جستجوی محصول ..." />
+
+        <section class="flex flex-wrap justify-center p-1 filter-box">
+            <button
+                class="btn data-filter text-2xl border border-stone-900 m-2 p-1 bg-slate-50 hover:bg-gray-600 transition ease-in-out hover:text-slate-100 rounded-lg text-slate-700">
+                همه
+            </button>
+            <button
+                class="btn data-filter text-2xl border border-stone-900 m-2 p-1 bg-slate-50 hover:bg-gray-600 transition ease-in-out hover:text-slate-100 rounded-lg text-slate-700">
+                ساعت ها
+            </button>
+            <button
+                class="btn data-filter text-2xl border border-stone-900 m-2 p-1 bg-slate-50 hover:bg-gray-600 transition ease-in-out hover:text-slate-100 rounded-lg text-slate-700">
+                پیراهن
+            </button>
+            <button
+                class="btn data-filter text-2xl border border-stone-900 m-2 p-1 bg-slate-50 hover:bg-gray-600 transition ease-in-out hover:text-slate-100 rounded-lg text-slate-700">
+                لباس مجلسی زنانه
+            </button>
+            <button
+                class="btn data-filter text-2xl border border-stone-900 m-2 p-1 bg-slate-50 hover:bg-gray-600 transition ease-in-out hover:text-slate-100 rounded-lg text-slate-700">
+                جواهرات
+            </button>
+        </section>
+    </header>
+    <!-- Header -->
+
+    <!-- products -->
+    <section class="products grid grid-cols-1 gap-x-4 md:grid-cols-2 lg:grid-cols-3">
+        <!-- single product -->
+        <div class="product bg-indigo-100 m-4 p-2 w-[28rem] md:w-[21rem] rounded-xl mx-auto flex md:flex-col">
+            <div class="img-container">
+                <img class="aspect-square w-48 max-w-[28rem] md:w-[20rem] rounded-xl" src="./assets/img/p-1.jpg"
+                    alt="p-1" />
+            </div>
+            <div class="product-desc p-4">
+                <p class="product-title text-2xl m-1">اپل واچ سری فلان</p>
+                <p class="product-price text-3xl">12.33 $</p>
+            </div>
+        </div>
+        <div class="product bg-indigo-100 m-4 p-2 w-[28rem] md:w-[21rem] rounded-xl mx-auto flex md:flex-col">
+            <div class="img-container">
+                <img class="aspect-square w-48 max-w-[28rem] md:w-[20rem] rounded-xl" src="./assets/img/p-2.jpg"
+                    alt="p-1" />
+            </div>
+            <div class="product-desc p-4">
+                <p class="product-title text-2xl m-1">پیراهن مردانه</p>
+                <p class="product-price text-3xl">8.99 $</p>
+            </div>
+        </div>
+        <div class="product bg-indigo-100 m-4 p-2 w-[28rem] md:w-[21rem] rounded-xl mx-auto flex md:flex-col">
+            <div class="img-container">
+                <img class="aspect-square w-48 max-w-[28rem] md:w-[20rem] rounded-xl" src="./assets/img/p-3.jpg"
+                    alt="p-1" />
+            </div>
+            <div class="product-desc p-4">
+                <p class="product-title text-2xl m-1">پیراهن مردانه</p>
+                <p class="product-price text-3xl">6.33 $</p>
+            </div>
+        </div>
+        <div class="product bg-indigo-100 m-4 p-2 w-[28rem] md:w-[21rem] rounded-xl mx-auto flex md:flex-col">
+            <div class="img-container">
+                <img class="aspect-square w-48 max-w-[28rem] md:w-[20rem] rounded-xl" src="./assets/img/p-4.jpg"
+                    alt="p-1" />
+            </div>
+            <div class="product-desc p-4">
+                <p class="product-title text-2xl m-1">پیراهن مردانه</p>
+                <p class="product-price text-3xl">8.00 $</p>
+            </div>
+        </div>
+        <div class="product bg-indigo-100 m-4 p-2 w-[28rem] md:w-[21rem] rounded-xl mx-auto flex md:flex-col">
+            <div class="img-container">
+                <img class="aspect-square w-48 max-w-[28rem] md:w-[20rem] rounded-xl" src="./assets/img/p-5.jpg"
+                    alt="p-1" />
+            </div>
+            <div class="product-desc p-4">
+                <p class="product-title text-2xl m-1">لباس مجلسی زنانه</p>
+                <p class="product-price text-3xl">15.67 $</p>
+            </div>
+        </div>
+        <div class="product bg-indigo-100 m-4 p-2 w-[28rem] md:w-[21rem] rounded-xl mx-auto flex md:flex-col">
+            <div class="img-container">
+                <img class="aspect-square w-48 max-w-[28rem] md:w-[20rem] rounded-xl" src="./assets/img/p-6.jpg"
+                    alt="p-1" />
+            </div>
+            <div class="product-desc p-4">
+                <p class="product-title text-2xl m-1">انگشتر نقره</p>
+                <p class="product-price text-3xl">45.88 $</p>
+            </div>
+        </div>
+        <div class="product bg-indigo-100 m-4 p-2 w-[28rem] md:w-[21rem] rounded-xl mx-auto flex md:flex-col">
+            <div class="img-container">
+                <img class="aspect-square w-48 max-w-[28rem] md:w-[20rem] rounded-xl" src="./assets/img/p-7.jpg"
+                    alt="p-1" />
+            </div>
+            <div class="product-desc p-4">
+                <p class="product-title text-2xl m-1">فلان ست طلا</p>
+                <p class="product-price text-3xl">50.33 $</p>
+            </div>
+        </div>
+        <div class="product bg-indigo-100 m-4 p-2 w-[28rem] md:w-[21rem] rounded-xl mx-auto flex md:flex-col">
+            <div class="img-container">
+                <img class="aspect-square w-48 max-w-[28rem] md:w-[20rem] rounded-xl" src="./assets/img/p-8.jpg"
+                    alt="p-1" />
+            </div>
+            <div class="product-desc p-4">
+                <p class="product-title text-2xl m-1">فلان واچ </p>
+                <p class="product-price text-3xl">14.00 $</p>
+            </div>
+        </div>
+        <!-- single product -->
+    </section>
+    <!-- products -->
+</body>
+
+</html>
