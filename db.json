@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "اپل واچ سری فلان",
+      "price": 10.99,
+      "class": "watch",
+      "image": "./assets/img/p-1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "پیراهن مردانه",
+      "price": 12.99,
+      "class": "shirt",
+      "image": "./assets/img/p-2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "پیراهن مردانه",
+      "price": 14.99,
+      "class": "shirt",
+      "image": "./assets/img/p-3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "پیراهن مردانه",
+      "price": 9.99,
+      "class": "shirt",
+      "image": "./assets/img/p-4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "لباس مجلسی زنانه",
+      "price": 20.99,
+      "class": "gown",
+      "image": "./assets/img/p-5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "جواهر نقره",
+      "price": 45.99,
+      "class": "jwelry",
+      "image": "./assets/img/p-6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "جواهر طلا",
+      "price": 87.99,
+      "class": "jwelry",
+      "image": "./assets/img/p-7.jpg"
+    },
+    {
+      "id": 8,
+      "title": "فلان واچ",
+      "price": 12.99,
+      "class": "watch",
+      "image": "./assets/img/p-8.jpg"
+    }
+  ]
+}
